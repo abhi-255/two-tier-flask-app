@@ -21,8 +21,6 @@ services:
   flask-app:
     image: abhijeet311/flask-app-jenkins:latest
     container_name: flask-app
-    ports:
-      - "5000:5000"
     environment:
       MYSQL_HOST: mysql
       MYSQL_USER: root
